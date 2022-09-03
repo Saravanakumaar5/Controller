@@ -1,0 +1,27 @@
+button {
+  padding: 1cm;
+  background-color: rgb(233, 10, 10);
+  border-radius: 16px;
+  color: ;
+}
+button:hover {
+  opacity: 0.7;
+}
+.grid-container {
+  display: grid;
+  background-color: rgb(223, 168, 30);
+  color: black;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  align-self: center;
+}
+.grid-item {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding: 2cm;
+  max-width: 4cm;
+  max-height: 4cm;
+  font-size: 30px;
+  text-align: center;
+}
